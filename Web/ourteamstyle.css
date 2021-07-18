@@ -1,0 +1,106 @@
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+	height: 70px;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+	display: inline-block;
+}
+.navbar-nav li a
+{	
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar
+{
+	background-color #000000;
+	background-image linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+.team-section{
+	overflow: hidden;
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/team.jpg);
+	background-size: cover;
+	background-position: center;
+        padding: 20px;
+	color: #fff !important;	
+}
+	
+.team-section h1{
+	text-transform: uppercase;
+	margin-bottom: 05px;
+	color: white;
+	font-size: 33px;
+}
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background: #3498db;
+	margin-bottom: 40px
+}
+.ps{
+	margin-bottom: 30px;
+}
+.ps a{
+	display: inline-block;
+	margin: 0 50px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ps a img{
+	width:100%;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+}
+.ps a:hover > img{
+	filter: none;
+}
+.section{
+	width: 800px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	height: 0;
+	overflow: hidden;
+        
+}
+
+.section:target{
+	height: auto;
+}
+.name{
+	display: block;
+	margin-bottom: 05px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 23px;
+}
+
